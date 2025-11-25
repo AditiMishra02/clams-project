@@ -1,0 +1,26 @@
+import requests
+import time
+import random
+
+messages = [
+    "User logged in",
+    "User logged out",
+    "Payment success",
+    "Payment failed",
+    "New order created",
+    "CPU usage exceeded threshold",
+    "Database timeout",
+    "Server started",
+    "Server shutdown",
+    "Unauthorized login attempt"
+]
+
+while True:
+    log = random.choice(messages)
+    try:
+        r = requests.post("http://127.0.0.1:5000/upload-log", data=log)
+        print(f"Sent: {log} | Status: {r.status_code}")
+    except Exception as e:
+        print("Error sending log:", e)
+    time.sleep(2)
+
