@@ -233,36 +233,6 @@ Logs will appear automatically in your S3 bucket.
 
 ---
 
-# 🚀 Deployment Options
-
-- Deploy on **AWS EC2**  
-- Deploy on **AWS Lambda + API Gateway**  
-- Deploy using **Docker + ECS**  
-- Deploy on **Render / Railway**  
-- Deploy as **Kubernetes service**  
-
----
-
-# 🖼 Screenshots (Add later)
-
-📌 *You can add screenshots of:*  
-- Terminal running API  
-- S3 bucket showing logs  
-- Docker container  
-- GitHub Actions pipeline  
-
----
-
-# 🔮 Future Enhancements
-
-- Add authentication (API keys / JWT)  
-- Add UI dashboard  
-- Add log search and filtering  
-- Push logs to CloudWatch or OpenSearch  
-- Add rate limiting  
-- Add structured logs (JSON schemas)  
-
----
 
 # 👩‍💻 Author — Aditi Mishra
 
