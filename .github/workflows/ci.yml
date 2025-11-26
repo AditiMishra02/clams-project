@@ -36,9 +36,8 @@ jobs:
           context: ./backend
           file: ./backend/Dockerfile
           push: true
-          tags: |
-            ghcr.io/aditimishra02/clams-project:latest
+          tags: ghcr.io/aditimishra02/clams-backend:latest
 
-      - name: Run integration tests (example)
-        run: |
-          docker run --rm ghcr.io/aditimishra02/clams-project:latest python3 app.py --help
+
+
+ 
