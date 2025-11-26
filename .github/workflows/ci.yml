@@ -41,4 +41,4 @@ jobs:
 
       - name: Run integration tests (example)
         run: |
-          docker run --rm ghcr.io/aditimishra02/clams-project:latest python3 backend/app.py --help
+          docker run --rm ghcr.io/aditimishra02/clams-project:latest python3 app.py --help
